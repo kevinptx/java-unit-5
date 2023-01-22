@@ -5,7 +5,7 @@
  import org.junit.runners.Parameterized.Parameters;
 
  import java.util.Arrays;
- import java.util.Collections;
+ import java.util.Collection;
 
  @RunWith(Parameterized.class)
  public class ParameterizedTest {
