@@ -26,8 +26,8 @@ public class MockitoTesting {
     public void testStudentsByClass() {
         // Given
         Student studentJM = new Student("Student1", "Spanish");
-        Student studentJH = new Student("Student2", "Pre-Algebra");
-        Student studentJJ = new Student("Student3", "Calculus2");
+        Student studentJH = new Student("Student2", "Algebra");
+        Student studentJJ = new Student("Student3", "Calculus");
         List<Student> allStudents = Arrays.asList(studentJM, studentJH, studentJJ);
 
         given(studentDataObject.getAllStudents()).willReturn(allStudents);
