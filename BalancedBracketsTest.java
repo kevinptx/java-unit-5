@@ -49,5 +49,4 @@
    public void testBalancedBrackets_mismatchedBrackets() {
  	  assertTrue(bb.balancedBrackets("<({)}>"));
    }
-
  }

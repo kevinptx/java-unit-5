@@ -37,7 +37,7 @@ public class MockitoTesting {
 
         // Then
         assertThat(mathStudents.size(), is(2));
-        assertThat(mathStudents, hasItems(studentJJ, studentJH);
+        assertThat(mathStudents, hasItems(studentJJ, studentJH));
     }
 
 
